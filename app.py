@@ -23,7 +23,7 @@ def home():
         if int(user_answer) == correct_answer:
             result = "Correct! Well done."
         else:
-            result = f"Wrong! The correct answer was {correct_answer}. Try again!"
+            result = f"Wrong! The correct answer was {correct_answer}. Try again."
         num1 = random.randint(1, 10)
         num2 = random.randint(1, 10)
         correct_answer = num1 + num2
